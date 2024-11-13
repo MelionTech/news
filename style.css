@@ -1,0 +1,295 @@
+@charset "UTF-8";
+/*
+Theme Name: Viral News Center
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/products/free-news-wordpress-theme
+Author URI: https://www.themagnifico.net/
+Description: Viral News Center is a professional and comprehensive WordPress theme for creating dynamic and engaging news websites. The theme comes with a sleek and modern design while capturing the attention of visitors and providing a visually appealing platform to showcase news articles, blog posts, and viral content. The theme's layout is carefully crafted to prioritize content and enhance readability. Its clean and intuitive interface ensures a seamless user experience, allowing readers to navigate effortlessly through different sections and access the latest news updates. The responsive design ensures that your website looks stunning on any device, from desktops to mobile phones, providing a consistent and enjoyable browsing experience for your audience. The Viral News Center WordPress theme offers a wide range of features and functionalities to enhance the functionality and user engagement of your website. It includes customizable homepage layouts, allowing you to display featured articles, popular posts, and trending news prominently. You can also incorporate multimedia elements such as images, videos, and interactive sliders to create visually captivating content. Furthermore, the Viral News Center theme provides advanced customization options, allowing you to personalize the appearance of your website to match your branding. You can choose from a variety of color schemes, fonts, and layout options to create a unique and cohesive visual identity.
+Version: 0.5
+Tested up to: 6.6
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: magazine-express
+Text Domain: viral-news-center
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, news, photography, portfolio
+
+Viral News Center WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2023.
+Viral News Center WordPress Theme is released under the terms of GNU GPL
+*/
+h1, h2, h3, h4, h5, h6,.sidebar ul li a,.article-box a,body{
+    color: #000000;
+}
+.featured-imagebox:hover .featured-cat a , .box-category:hover .featured-cat a,.slide-cat a:hover, .sticky .entry-title::before,.woocommerce-account .woocommerce-MyAccount-navigation ul li,.sidebar .tagcloud a:hover,.serach_inner [type="submit"],.woocommerce .woocommerce-ordering select,#colophon,.woocommerce a.button.alt, .woocommerce button.button,.woocommerce #respond input#submit,.woocommerce button.button.alt,.woocommerce a.button,.woocommerce .woocommerce-ordering select.sidebar .tagcloud a:hover,.sidebar input[type="submit"], .sidebar button[type="submit"],.comment-respond input#submit,.post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover,.sidebar h5,#button,.slide-btn a:hover,.main-navigation .sub-menu,.top-info,.menu-header{
+    background: #ff5c3f;
+}
+.navbar-brand a:hover, a.slide-date:hover, .box-slider:hover h4 a, .news-category:hover h4 a, .featured-imagebox:hover h4 a, .featured-imagebox:hover a.featured-date, .box-category:hover h4 a, .box-category:hover a.box-date {
+    color: #ff5c3f !important;
+}
+.subscribe-btn a:hover{
+    color: #fff;
+    background: #000;
+}
+.social-link i:hover{
+    color: #000;
+}
+.slide-btn a,.woocommerce-message::before, .woocommerce-info::before,p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,a,.sidebar ul li a:hover,#featured-topic h3,.news-box i,.subscribe-btn a{
+    color: #ff5c3f;
+}
+.article-box:hover a{
+    color: #ff5c3f !important;
+}
+#colophon a,#colophon ,.main-navigation .menu > li > a,.social-link i,.top-info strong,.top-info span {
+    color: #ffffff;
+}
+.woocommerce-message, .woocommerce-info {
+    border-top-color: #ff5c3f;
+}
+#colophon a:hover, #colophon a:focus,.main-navigation .menu > li > a:hover,.navbar-brand a{
+    color: #000000;
+}
+.advertise-inner-box h3{
+    color: #fff;
+    margin-block: 0;
+}
+.serach_inner,#featured-topic {
+    background: #fff0ed;
+}
+.toggle-nav i,.woocommerce a.button.alt:hover,.woocommerce button.button:hover,.woocommerce #respond input#submit:hover,.woocommerce button.button.alt:hover,.woocommerce a.button:hover{
+    background: #000000;
+}
+#site-navigation .menu ul li a{
+    color: #fff;
+}
+.main-navigation .menu > li > a:hover, #site-navigation .menu ul li a:hover{
+    color: #000000;
+}
+.main-navigation ul.sub-menu > li > a:hover, .main-navigation ul.sub-menu > li > a:focus {
+    background: #000000;
+    color: #fff !important;
+}
+.box-image img {
+    width: 100%;
+}
+.slide-btn a{
+    background: #ffffff;
+}
+.slider-content {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    width: 54%;
+}
+.box-slider {
+    position: relative;
+}
+.search-box a i{
+    margin-right: 0px;
+}
+.search-box {
+    margin: 30px 0;
+    text-align: center;
+    border-right: 1px solid #ffffff5c;
+    border-left: 1px solid #ffffff5c;
+    padding: 18px 15px;
+}
+.advertise-box img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+ul.post-categories li {
+    display: inline;
+}
+.box-imagess img {
+    position: relative;
+    width: 100%;
+    height: 231px;
+    object-fit: cover;
+}
+.box-slider h4{
+    line-height: 20px;
+}
+.box-slider h4 a{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.slider-box {
+    position: absolute;
+    width: 57%;
+    left: 10%;
+    bottom: 15%;
+}
+.slider-content h4 {
+    color: #fff;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.slide-cat a{
+    background: #ea00f4;
+    padding: 4px 15px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.box-image img {
+    height: 30em;
+    width: 100%;
+    object-fit: cover;
+}
+.slide-btn a {
+    padding: 7px 10px;
+}
+a.slide-date {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.news-box h4 a{
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+.news-box span{
+    font-size: 13px;
+    line-height: 20px;
+    color: #2d2d2d;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.news-imagess img {
+    width: 90%;
+    height: 90px;
+    object-fit: cover;
+}
+#news h3{
+    font-size: 20px;
+    line-height: 20px;
+    color: #2d2d2d;
+    font-weight: 600;
+}
+.news-box h4{
+    line-height: 20px;
+}
+.news-category {
+    background: #fff0ed;
+    padding: 10px 8px;
+}
+.owl-dots{
+    display: block;
+}
+.owl-dots{
+    text-align: center;
+}
+button.owl-dot.active {
+    background: #ff5c3f;
+}
+button.owl-dot {
+    width: 8px;
+    padding: 0px;
+    background: #000;
+    height: 8px;
+    margin-right: 6px;
+    border-radius: 30px;
+    border: none;
+}
+.date-box i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.date-box {
+    font-size: 12px;
+    line-height: 21px;
+    color: #fffefe;
+    font-weight: 600;
+}
+.page-content .btn-primary{
+    background: #ff5c3f;
+}
+@media screen and (max-width: 575px){
+    #top-slider .owl-nav{
+        display: none;
+    }
+    .slider-inner-box {
+        right: 3%;
+        left: 3%;
+    }
+    .advertise-box img {
+        height: 90px;
+    }
+    .date-box{
+        text-align: center !important;
+    }
+    .slider-box-btn{
+        margin-top: 15px !important;
+    }
+    .slider-inner-box h1 a {
+        font-size: 16px;
+    }
+    .stick_header{
+        position: static !important;
+    }
+    .latest-services .section-content {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .slider-content {
+        bottom: 27%;
+        left: 14%;
+        width: 72%;
+    }
+   
+}
+@media screen and (max-width: 600px){
+    .admin-bar .socialmedia.stick_header {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .phone-text {
+       text-align: left;
+    }
+    .slider-inner-box {
+        right: 10%;
+        left: 10%;
+    }
+    .main-navigation .menu > li{
+        display: block;
+    }
+    .main-navigation .menu > li > a{
+        color: #fff;
+    }
+    .main-navigation .sub-menu{
+        background: transparent;
+    }
+    .sidenav .closebtn{
+        background: #ff5c3f;
+    }
+    .main-navigation .menu > li > a:hover, #site-navigation .menu ul li a:hover, .main-navigation ul.sub-menu > li > a:hover, .main-navigation ul.sub-menu > li > a:focus, .main-navigation .menu > li > a:hover {
+        background: transparent;
+        color: #ff5c3f !important;
+    }
+    #site-navigation .menu ul li a {
+      color: #fff;
+      padding: 15px 10px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    } 
+}
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+    .slider-inner-box {
+        right: 18%;
+        left: 18%;
+    }
+    
+}
